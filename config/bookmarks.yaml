@@ -21,3 +21,20 @@
     - Netflix:
         - icon: netflix
           href: https://netflix.com/
+
+- Work:
+    - Podio:
+        - icon: podio
+          href: https://podio.com/home
+    - Curanet:
+        - icon: cloud
+          href: https://reseller.curanet.dk/Subscription
+    - ManageWP:
+        - icon: managewp
+          href: https://managewp.com/
+    - SharePoint:
+        - icon: microsoftsharepoint
+          href: https://brandbyhand.sharepoint.com/sites/brandbyhand/Delte%20dokumenter/Forms/AllItems.aspx
+    - Freshdesk:
+        - icon: freshdesk
+          href: https://brandbyhand.freshdesk.com/support/login
