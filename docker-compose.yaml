@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - 3001:3000
+    env_file: .env # use .env
+    volumes:
+      - ./config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      PUID: $PUID # read them from .env
+      PGID: $PGID # read them from .env
+      HOMEPAGE_ALLOWED_HOSTS: localhost,localhost:3001,127.0.0.1
