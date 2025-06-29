@@ -14,5 +14,4 @@
 - datetime:
     text_size: xl
     format:
-      timeStyle: short
-   # ^^^ add this block
+    timeStyle: short

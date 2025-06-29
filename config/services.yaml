@@ -2,20 +2,54 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- Familie Kalender:
+    - HomeCalendar:
+        widget:
+          type: calendar
+          view: agenda
+          maxEvents: 10 # optional - defaults to 10
+          showTime: true # optional - show time for event happening today - defaults to false
+          previousDays: 0 # optional - shows events since three days ago - defaults to 0
+          integrations: # same as in Monthly view example
+            - type: ical # Show calendar events from another service
+              url: "https://calendar.google.com/calendar/ical/c62a6o26gmu04oac0jp3f395ho%40group.calendar.google.com/public/basic.ics"
+              name: Aftaler # required - name for these calendar events
+              color: blue # optional - defaults to pre-defined color for the service (zinc for ical)
+              params: # optional - additional params for the service
+                showName: true # optional - show name before event title in event line - defaults to false
+      
+            
+- Arbejds kalender:
+    - WorkCalendar:
+        widget:
+          type: calendar
+          view: agenda
+          maxEvents: 10 # optional - defaults to 10
+          showTime: true # optional - show time for event happening today - defaults to false
+          previousDays: 0 # optional - shows events since three days ago - defaults to 0
+          integrations: # same as in Monthly view example
+            - type: ical # Show calendar events from another service
+              url: "https://calendar.google.com/calendar/ical/64adonr0dv3rjbb5qfga2r1bmdtto7np%40import.calendar.google.com/public/basic.ics"
+              name: Aftaler # required - name for these calendar events
+              color: blue # optional - defaults to pre-defined color for the service (zinc for ical)
+              params: # optional - additional params for the service
+                showName: true # optional - show name before event title in event line - defaults to false      
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+# In your services.yaml file
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+# In your services.yaml file
+
+- "Monitoring":
+    - "Website Status":
+        icon: https://uptimekuma.org/wp-content/uploads/2025/01/Uptime-Kuma-Logo.png
+        href: http://vds1055.virtualserver.io:3001/
+        description: Live status of all client sites
+        widget:
+          type: uptimekuma
+          url: http://vds1055.virtualserver.io:3001  # CORRECTED: Base URL only
+          slug: premium-sider                      # CORRECTED: Your specific slug
+
+
 - Top Services:
     - Proxmox:
         icon: proxmox.png # icons found here https://github.com/walkxcode/dashboard-icons

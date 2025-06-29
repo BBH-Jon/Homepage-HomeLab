@@ -2,9 +2,66 @@
     - Github:
         - icon: github
           href: https://github.com/
+    - Mail Tester:
+        - icon: https://maileroo.com/favicon.ico
+          href: https://maileroo.com/
+    - Domain Tester:
+        - icon: https://www.simply.com/favicon.ico
+          href: https://www.simply.com/dk/diagnostics/
+    - DNS Information:
+        - icon: https://viewdns.info/favicon.ico
+          href: https://viewdns.info/
+
+- Work:
+    - Podio:
+        - icon: https://d3apguah0u98pa.cloudfront.net/images/icons/visual_refresh/new_podio.svg
+          href: https://podio.com/home
+    - Curanet:
+        - icon: https://reseller.curanet.dk/img/logo/curanet-logo.svg
+          href: https://reseller.curanet.dk/Subscription
+    - ManageWP:
+        - icon: https://managewp.com/favicon.ico
+          href: https://managewp.com/
+    - SharePoint:
+        - icon: https://www.microsoft.com/favicon.ico
+          href: https://brandbyhand.sharepoint.com/sites/brandbyhand/Delte%20dokumenter/Forms/AllItems.aspx
+    - Freshdesk:
+        - icon: https://e7.pngegg.com/pngimages/35/416/png-clipart-freshdesk-logo-icon-tech-companies-thumbnail.png
+          href: https://brandbyhand.freshdesk.com/support/login
+
+- Servers:
+    - Kundeserver:
+        - icon: mdi-server
+          href: http://vps868.basicserver.io:8443/
+    - Byhand dev server:
+        - icon: mdi-dev-to
+          href: https://vds1055.virtualserver.io:8443/
+    - VIP server:
+        - icon: mdi-star
+          href: https://vps808.basicserver.io:8443/
+    - Hetzner server:
+        - icon: mdi-cloud
+          href: https://accounts.hetzner.com/login
+    - Makrwaldorf:
+        - icon: mdi-database
+          href: https://vps416.basicserver.io:8443/
+    - FKN Server:
+        - icon: mdi-harddisk
+          href: https://vm1406.enterprisecloud.nu/
+
+- AI:
     - ChatGPT:
-        - icon: message-square
+        - icon: https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.82af6fe1.png
           href: https://chat.openai.com/
+    - Gemini:
+        - icon: https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg
+          href: https://gemini.google.com/
+    - Perplexity:
+        - icon: https://www.perplexity.ai/favicon.svg
+          href: https://www.perplexity.ai/
+    - Manus AI:
+        - icon: https://manus.ai/favicon.ico
+          href: https://manus.ai/
 
 - Social:
     - Reddit:
@@ -13,6 +70,15 @@
     - Twitter:
         - icon: twitter
           href: https://twitter.com/
+    - Facebook:
+        - icon: https://www.facebook.com/favicon.ico
+          href: https://www.facebook.com/
+    - LinkedIn:
+        - icon: https://www.linkedin.com/favicon.ico
+          href: https://www.linkedin.com/
+    - Instagram:
+        - icon: https://www.instagram.com/favicon.ico
+          href: https://www.instagram.com/
 
 - Entertainment:
     - YouTube:
@@ -21,20 +87,15 @@
     - Netflix:
         - icon: netflix
           href: https://netflix.com/
-
-- Work:
-    - Podio:
-        - icon: podio
-          href: https://podio.com/home
-    - Curanet:
-        - icon: cloud
-          href: https://reseller.curanet.dk/Subscription
-    - ManageWP:
-        - icon: managewp
-          href: https://managewp.com/
-    - SharePoint:
-        - icon: microsoftsharepoint
-          href: https://brandbyhand.sharepoint.com/sites/brandbyhand/Delte%20dokumenter/Forms/AllItems.aspx
-    - Freshdesk:
-        - icon: freshdesk
-          href: https://brandbyhand.freshdesk.com/support/login
+    - Amazon Prime:
+        - icon: https://www.amazon.com/favicon.ico
+          href: https://www.primevideo.com/
+    - Viaplay:
+        - icon: https://viaplay.com/favicon.ico
+          href: https://viaplay.com/
+    - Max:
+        - icon: https://www.max.com/favicon.ico
+          href: https://www.max.com/
+    - Spotify:
+        - icon: https://open.spotify.com/favicon.ico
+          href: https://open.spotify.com/
